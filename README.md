@@ -1,6 +1,6 @@
-# Azure Naming Convention Policy files
+# Azure Naming Convention
 
-Hello :wave: and welcome to a example of an Azure naming convention which follows the [Recommended Microsoft abbreviations](https://github.com/MicrosoftDocs/cloud-adoption-framework/blob/main/docs/ready/azure-best-practices/resource-abbreviations.md), fully implemented in  terraform-compliance in the `az-terraform-compliance-policy` folder :smile:.
+Hello :wave: and welcome to an example of an Azure naming convention which follows the [Recommended Microsoft abbreviations](https://github.com/MicrosoftDocs/cloud-adoption-framework/blob/main/docs/ready/azure-best-practices/resource-abbreviations.md), fully implemented in  terraform-compliance in the `az-terraform-compliance-policy` folder :smile:.
 
 This repo hosts the files needed to run a standard name and tagging policy check on your terraform code.
 
