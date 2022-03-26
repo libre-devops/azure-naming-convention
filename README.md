@@ -4,12 +4,12 @@ Hello :wave: and welcome to a example of an Azure naming convention which follow
 
 This repo hosts the files needed to run a standard name and tagging policy check on your terraform code.
 
-In the future, the project would like to host Azure policy for the same thing, [as soon as they support regex](https://andrewmatveychuk.com/how-to-enforce-naming-convention-for-azure-resources/#:~:text=Unfortunately%2C%20Azure%20policy%20currently%20doesn,specific%20list%20of%20match%20conditions.) :laugh:
+In the future, the project would like to host Azure policy for the same thing, [as soon as they support regex](https://andrewmatveychuk.com/how-to-enforce-naming-convention-for-azure-resources/#:~:text=Unfortunately%2C%20Azure%20policy%20currently%20doesn,specific%20list%20of%20match%20conditions.) :sweat_smile:
 
 ## Why?
 You probably found this repo looking to implement something similar for your own company, so please feel free to use this version!  but why `terraform-compliance`?
 
-Terraform-Compliance follows a pattern of [Behavior-driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development), where tests should be written to follow a pattern at the beggining of development.  In enterprise cloud, naming your resources in a consistent manner is very important for readability and auditing.  This type of policy can be brought in house and tweaked for each organisation, and can be enabled in your CI/CD piepline for continuous compliance :wink:.
+Terraform-Compliance follows a pattern of [Behavior-driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development), where tests should be written to follow a pattern at the beginning of development.  In enterprise cloud, naming your resources in a consistent manner is very important for readability and auditing.  This type of policy can be brought in house and tweaked for each organisation, and can be enabled in your CI/CD piepline for continuous compliance :wink:.
 
 This repo:
 
