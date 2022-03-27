@@ -5,7 +5,7 @@ Feature: Naming Convention For Containers Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "aks-.*-(dev|dev2|mvp|ppd|prd|prd1|prd2|stg|tst|tst1|tst2|uat).*" regex
+    Then its value must match the "aks-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
 
     Examples:
       | resource_name              | name_key |
@@ -16,7 +16,7 @@ Feature: Naming Convention For Containers Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "cr-.*-(dev|dev2|mvp|ppd|prd|prd1|prd2|stg|tst|tst1|tst2|uat).*" regex
+    Then its value must match the "cr-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
 
     Examples:
       | resource_name              | name_key |
@@ -27,7 +27,7 @@ Feature: Naming Convention For Containers Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "ci-.*-(dev|dev2|mvp|ppd|prd|prd1|prd2|stg|tst|tst1|tst2|uat).*" regex
+    Then its value must match the "ci-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
 
     Examples:
       | resource_name              | name_key |
@@ -38,7 +38,7 @@ Feature: Naming Convention For Containers Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "sf-.*-(dev|dev2|mvp|ppd|prd|prd1|prd2|stg|tst|tst1|tst2|uat).*" regex
+    Then its value must match the "sf-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
 
     Examples:
       | resource_name                  | name_key |

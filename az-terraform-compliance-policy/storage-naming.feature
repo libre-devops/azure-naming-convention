@@ -5,7 +5,7 @@ Feature: Naming Convention For Storage Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "st-.*-(dev|dev2|mvp|ppd|prd|prd1|prd2|stg|tst|tst1|tst2|uat).*" regex
+    Then its value must match the "st-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
 
     Examples:
       | resource_name           | name_key |

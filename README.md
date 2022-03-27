@@ -69,11 +69,11 @@ As a general rule, all names should try to exclude special characters wherever p
 
 The table below contains information about additional naming considerations
 
-|                                         Other Names                                         |          Description          |       Example        |
-|:-------------------------------------------------------------------------------------------:|:-----------------------------:|:--------------------:|
-|                   `VM purposes - Used for when VMs are named via purpose`                   |       `app,dbs,web,vm`        |   `webldouksprd01`   |
-|        `Environment Stages - Used for deciding what stages an environment can be in`        | `prd,ppd,uat,tst,dev,mvp,poc` |   `appprduksprd01`   |
-| `Management Outfix - Used to describe a resource which belongs to the admins of the tenant` |             `mgt`             | `rg-crg-ukw-ppd-mgt` |
+|                                         Other Names                                         |            Description            |       Example        |
+|:-------------------------------------------------------------------------------------------:|:---------------------------------:|:--------------------:|
+|                   `VM purposes - Used for when VMs are named via purpose`                   |         `app,dbs,web,vm`          |   `webldouksprd01`   |
+|        `Environment Stages - Used for deciding what stages an environment can be in`        | `poc,mvp,dev,tst,stg,uat,ppd,prd` |   `appprduksprd01`   |
+| `Management Outfix - Used to describe a resource which belongs to the admins of the tenant` |               `mgt`               | `rg-crg-ukw-ppd-mgt` |
 
 # Resource list
 
