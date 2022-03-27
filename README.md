@@ -41,7 +41,7 @@ You should consult the terraform-compliance docs on how you want to deploy these
 
 This list is non-exhaustive, there is 100s of resources in Azure and not all will be covered, and we will be adding these as I go along. Some you may disagree with or need changing for your own org, so you are free to use this copy, clone it and change it or even fork it if you need greater customisation! If you want to add something then please see contribution guide below!
 
-Another note, this naming convention tries to cover parts of the API which you cannot make with Terraform, so in those occurences, `terraform-compliance` won't have a test for these.  To save confusion and for all the ARM/Bicep/Pulumi users, we have added the resource entity API names to the naming convention so it can be clear even things which can't be controlled with terraform can have a name assigned.
+Another note, this naming convention tries to cover parts of the API which you cannot make with Terraform, so in those occurrences, `terraform-compliance` won't have a test for these.  To save confusion and for all the ARM/Bicep/Pulumi users, we have added the resource entity API names to the naming convention so it can be clear even things which can't be controlled with terraform can have a name assigned.
 
 To contribute to the main copy:
 
