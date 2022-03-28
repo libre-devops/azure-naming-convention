@@ -22,7 +22,7 @@ jobs:
       SHORTHAND_ENVIRONMENT: "tst"
       SHORTHAND_LOCATION: "euw"
       TERRAFORM_COMPLIANCE_POLICY: "https://github.com/libre-devops/azure-naming-convention.git//?ref=main"
-      TERRAFORM_STATE_NAME: "$${ env.SHORTHAND_PROJECT_NAME }}-${{ env.SHORTHAND_ENVIRONMENT }}-az-naming.terraform.tfstate"
+      TERRAFORM_STATE_NAME: "${ env.SHORTHAND_PROJECT_NAME }}-${{ env.SHORTHAND_ENVIRONMENT }}-az-naming.terraform.tfstate"
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
