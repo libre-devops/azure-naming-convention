@@ -23,17 +23,6 @@ Feature: Naming Convention For API Management Items
       | azurerm_api_management_api | name     |
 
   @case_sensitive
-  Scenario Outline: Naming Standard For APIM API
-    Given I have <resource_name> defined
-    When it has <name_key>
-    Then it must have name
-    Then its value must match the "api-.*" regex
-
-    Examples:
-      | resource_name              | name_key |
-      | azurerm_api_management_api | name     |
-
-  @case_sensitive
   Scenario Outline: Naming Standard For APIM API Operation
     Given I have <resource_name> defined
     When it has <name_key>

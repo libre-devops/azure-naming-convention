@@ -1,4 +1,4 @@
-Feature: Naming Convention For Analytics and IoT ]Items
+Feature: Naming Convention For Analytics and IoT Items
 
   @case_sensitive
   Scenario Outline: Naming Standard For Azure Analysis Services Server
