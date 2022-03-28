@@ -21,7 +21,8 @@ jobs:
       SHORTHAND_PROJECT_NAME: "lbdo"
       SHORTHAND_ENVIRONMENT: "tst"
       SHORTHAND_LOCATION: "euw"
-      TERRAFORM_COMPLIANCE_POLICY: "https://github.com/libre-devops/azure-naming-convention.git//?ref=dev"
+      TERRAFORM_COMPLIANCE_POLICY: "https://github.com/libre-devops/azure-naming-convention.git//?ref=naub"
+      TERRAFORM_STATE_NAME: "${TF_VAR_short}-${TF_VAR_env}-az-naming.terraform.tfstate"
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
@@ -44,7 +45,7 @@ jobs:
           -backend-config="storage_account_name=${TF_VAR_AZURE_BACKEND_SA_NAME}" \
           -backend-config="access_key=${TF_VAR_AZURE_BACKEND_SA_KEY}" \
           -backend-config="container_name=${TF_VAR_AZURE_BACKEND_SA_CONTAINER_NAME}" \
-          -backend-config="key=${TF_VAR_short}-${TF_VAR_env}-az-naming.terraform.tfstate" && \
+          -backend-config="key=${TERRAFORM_STATE_NAME}" && \
 
           printf '%s' "${TF_VAR_env}" > .terraform/environment && \
 
@@ -58,6 +59,7 @@ jobs:
           TF_VAR_short: ${{ env.SHORTHAND_PROJECT_NAME }}
           TF_VAR_env: ${{ env.SHORTHAND_ENVIRONMENT }}
           TF_VAR_loc: ${{ env.SHORTHAND_LOCATION }}
+          TERRAFORM_STATE_NAME: ${{ env.TERRAFORM_STATE_NAME }}
 
           TF_VAR_AZURE_BACKEND_SA_NAME: ${{ secrets.SPOKESANAME }}
           TF_VAR_AZURE_BACKEND_SA_KEY: ${{ secrets.SPOKESAPRIMARYKEY }}
