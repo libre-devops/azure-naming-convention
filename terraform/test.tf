@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "example_rg" {
   location = local.location
-  name     = "rg-${var.short}-${var.loc}-${terraform.workspace}-exm"
+  name     = "rg-${var.short}-${var.loc}-${terraform.workspace}-exm-01"
   tags     = local.tags
 }
 
