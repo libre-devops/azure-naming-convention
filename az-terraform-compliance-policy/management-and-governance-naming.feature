@@ -5,7 +5,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "aa-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "aa-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name              | name_key |
@@ -16,7 +16,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "appi-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "appi-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                | name_key |
@@ -27,7 +27,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "ag-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "ag-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                | name_key |
@@ -38,7 +38,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pview-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pview-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -49,7 +49,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "bp-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "bp-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                | name_key |
@@ -60,7 +60,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "kv-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "kv-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name     | name_key |
@@ -71,7 +71,7 @@ Feature: Naming Convention For Management and Governance Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "log-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "log-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |

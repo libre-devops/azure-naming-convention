@@ -5,7 +5,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "agw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "agw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name               | name_key |
@@ -16,7 +16,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "asg-.*(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "asg-.*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                      | name_key |
@@ -27,7 +27,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "bas-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "bas-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name        | name_key |
@@ -38,7 +38,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "cdnp-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "cdnp-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name       | name_key |
@@ -49,7 +49,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "cdne-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "cdne-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name        | name_key |
@@ -60,7 +60,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "con-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "con-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                              | name_key |
@@ -71,7 +71,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "dnsz-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "dnsz-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name    | name_key |
@@ -82,7 +82,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pdnsz-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pdnsz-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name            | name_key |
@@ -93,7 +93,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "afw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "afw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name    | name_key |
@@ -104,7 +104,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "afwp-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "afwp-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -115,7 +115,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "erc-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "erc-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                 | name_key |
@@ -126,7 +126,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "fd-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "fd-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name     | name_key |
@@ -137,7 +137,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "fdfp-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "fdfp-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                     | name_key |
@@ -149,7 +149,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "lb-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "lb-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name | name_key |
@@ -160,7 +160,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "rule-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "rule-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name   | name_key |
@@ -171,7 +171,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "lgw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "lgw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                 | name_key |
@@ -182,7 +182,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "ng-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "ng-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name       | name_key |
@@ -193,7 +193,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "(nic|pnic|snic)-.*(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "(nic|pnic|snic)-.*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name             | name_key |
@@ -204,7 +204,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "nsg-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "nsg-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                  | name_key |
@@ -216,7 +216,7 @@ Feature: Naming Convention For Network Azure Items
 #    Given I have <resource_name> defined
 #    When it has <name_key>
 #    Then it must have name
-#    Then its value must match the "nsgsr-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+#    Then its value must match the "nsgsr-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 #
 #    Examples:
 #      | resource_name                 | name_key |
@@ -227,7 +227,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "nw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "nw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -238,7 +238,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pl-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pl-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                | name_key |
@@ -249,7 +249,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pip-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pip-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name     | name_key |
@@ -260,7 +260,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "ippre-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "ippre-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name            | name_key |
@@ -271,7 +271,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "rf-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "rf-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name        | name_key |
@@ -282,7 +282,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "rt-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "rt-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name       | name_key |
@@ -293,7 +293,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "se-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "se-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                                  | name_key |
@@ -304,7 +304,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "traf-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "traf-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -315,7 +315,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "udr-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "udr-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name | name_key |
@@ -326,7 +326,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vnet-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "vnet-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -337,7 +337,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "peer-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "peer-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -349,7 +349,7 @@ Feature: Naming Convention For Network Azure Items
 #    Given I have <resource_name> defined
 #    When it has <name_key>
 #    Then it must have name
-#    Then its value must match the "snet-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+#    Then its value must match the "snet-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 #
 #    Examples:
 #      | resource_name  | name_key |
@@ -360,7 +360,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vwan-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "vwan-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name       | name_key |
@@ -371,7 +371,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vpng-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "vpng-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name       | name_key |
@@ -382,7 +382,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vcn-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "vcn-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                  | name_key |
@@ -393,7 +393,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vst-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "vst-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name    | name_key |
@@ -404,7 +404,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "gw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "gw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -415,7 +415,7 @@ Feature: Naming Convention For Network Azure Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "waf-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "waf-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                           | name_key |

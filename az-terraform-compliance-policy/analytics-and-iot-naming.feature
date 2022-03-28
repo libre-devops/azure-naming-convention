@@ -5,7 +5,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "as-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "as-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                     | name_key |
@@ -16,7 +16,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "dbw-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "dbw-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                | name_key |
@@ -27,7 +27,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "asa-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "asa-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name            | name_key |
@@ -38,7 +38,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "dec-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "dec-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name         | name_key |
@@ -49,7 +49,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "decb-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "decb-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name          | name_key |
@@ -60,7 +60,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "adf-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "adf-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name        | name_key |
@@ -71,7 +71,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "dls-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "dls-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -82,7 +82,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "dla-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "dla-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                  | name_key |
@@ -93,7 +93,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "evhns-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "evhns-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name              | name_key |
@@ -104,7 +104,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "evh-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "evh-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name    | name_key |
@@ -115,7 +115,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "evgd-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "evgd-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name            | name_key |
@@ -126,7 +126,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "evgs-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "evgs-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                        | name_key |
@@ -137,7 +137,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "evgt-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "evgt-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name           | name_key |
@@ -148,7 +148,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "hadoop-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "hadoop-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                    | name_key |
@@ -159,7 +159,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "hbase-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "hbase-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -170,7 +170,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "kafka-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "kafka-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -181,7 +181,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "spark-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "spark-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -192,7 +192,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "storm-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "storm-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -203,7 +203,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "mls-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "mls-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                         | name_key |
@@ -214,7 +214,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "iot-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "iot-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name  | name_key |
@@ -225,7 +225,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "provs-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "provs-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name      | name_key |
@@ -236,7 +236,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pcert-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pcert-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                  | name_key |
@@ -247,7 +247,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "pbi-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "pbi-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name            | name_key |
@@ -258,7 +258,7 @@ Feature: Naming Convention For Analytics and IoT ]Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "tsi-.*-(poc|mvp|dev|tst|stg|uat|ppd|prd).*" regex
+    Then its value must match the "tsi-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                                     | name_key |

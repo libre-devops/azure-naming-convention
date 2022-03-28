@@ -13,7 +13,7 @@ Feature: Tagging Policy
     And its value must match the "<value>" regex
 
     Examples:
-      | tags        | value                   |
-      | CostCentre  | .+                      |
-      | ProjectName | .+                      |
-      | Environment | ^(prod\|uat\|tst\|dev)$ |
+      | tags        | value                                      |
+      | CostCentre  | .+                                         |
+      | ProjectName | .+                                         |
+      | Environment | ^(poc\|mvp\|dev\|tst\|stg\|uat\|ppd\|prd)$ |
