@@ -24,7 +24,7 @@ Feature: Naming Convention For AI and Machine Learning Items
 
 
   @case_sensitive
-  Scenario Outline: Naming Standard For Machine Learning workspace
+  Scenario Outline: Naming Standard For Azure Search Service
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name

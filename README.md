@@ -76,7 +76,7 @@ The table below contains information about additional naming considerations
 |        `Environment Stages - Used for deciding what stages an environment can be in`        | `poc,mvp,dev,tst,stg,uat,ppd,prd` |   `appprduksprd01`   |
 | `Management Outfix - Used to describe a resource which belongs to the admins of the tenant` |               `mgt`               | `rg-crg-ukw-ppd-mgt` |
 
-# Resource list
+# Azurerm Resource list
 
 Below here is a table which sets out naming for all resources listed by Microsoft’s guidance to date.  Pseudocode is used in this table where names are represented with `${}` describing a value which is not an explict string, so watch out for those. These can sometimes be things descriptors such as the optional outfix or to give flexibility in naming things more appropriately than strict numbering.  Another note is regarding resource limit,  we have attempted to migrate all data from [Microsoft's guide](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-resource-manager/management/resource-name-rules.md) into a single table, but its worth checking out the Microsoft version too, there is a copy of it [here](https://github.com/libre-devops/azure-naming-convention/blob/main/ms-resource-limits.md). 
 
@@ -390,3 +390,26 @@ Below here is a table which sets out naming for all resources listed by Microsof
 |              `Web Site (Function App)`              |                            `Microsoft.Web/sites`                            |   `func-`    |            `prefix`             |        `numbering`         |         `2-59`         |   `func-${infix}-${outfix}-${suffix}-${numbering}`    |             `func-ldo-uks-prd-01`             |
 |             `Web Site (Static Web App)`             |                            `Microsoft.Web/sites`                            |    `wts-`    |            `prefix`             |        `numbering`         |         `2-59`         |   `stapp-${infix}-${outfix}-${suffix}-${numbering}`   |            `stapp-ldo-uks-prd-01`             |
 |                `Web Site (Web App)`                 |                            `Microsoft.Web/sites`                            |    `app-`    |            `prefix`             |        `numbering`         |         `2-59`         |    `app-${infix}-${outfix}-${suffix}-${numbering}`    |             `app-ldo-uks-prd-01`              |
+
+# Other Resource List
+
+Below is a list of resources with a naming convention set when not covered by the Azure Resource Manager API (e.g. service principal, Azure DevOps items etc)
+
+## AzureAD Resource List
+
+|     Asset type      |  Abbreviation  | Prefix, Infix, Outfix or Suffix | Entropy, Numbering or None | Length Limit (Min-Max) |                    Construct                    |            Example            |
+|:-------------------:|:--------------:|:-------------------------------:|:--------------------------:|:----------------------:|:-----------------------------------------------:|:-----------------------------:|
+|  `Standard Group`   | `az-user-grp`  |            `prefix`             |           `none`           |        `3-512`         |           `az-user-${group_purpose}`            |  `az-user-grp-vm-operators`   |     
+|    `Admin Group`    | `az-admin-grp` |            `prefix`             |           `none`           |        `3-512`         |           `az-admin-${group_purpose}`           | `az-admin-grp-global-admins`  |
+|  `Keyvault Group`   |  `az-kv-grp`   |            `prefix`             |           `none`           |        `3-512`         |            `az-kv-${keyvault_name}`             | `az-kv-grp-kv-ldo-ukw-dev-04` |
+| `Service Principal` |     `svp-`     |            `prefix`             |        `numbering`         |        `3-256`         | `svp-${infix}-${outfix}-${suffix}-${numbering}` |     `svp-ldo-ukw-dev-01`      |
+
+## Azure DevOps Resource List
+
+|            Asset type            | Abbreviation | Prefix, Infix, Outfix or Suffix | Entropy, Numbering or None | Length Limit (Min-Max) |                            Construct                            |                  Example                  |
+|:--------------------------------:|:------------:|:-------------------------------:|:--------------------------:|:----------------------:|:---------------------------------------------------------------:|:-----------------------------------------:|
+|    `Pipeline Purpose (YAML)`     | `-Pipeline-` |            `outfix`             |           `none`           |         `3-63`         | `${application}-${ci_or_cicd}-${environment}-${stage}-pipeline` |     `Terraform-CiCd-Ldo-Prd-Pipeline`     |
+|   `Pipeline Purpose (Classic)`   | `-Pipeline-` |            `outfix`             |           `none`           |         `3-63`         | `${application}-${ci_or_cicd}-${environment}-${stage}-Pipeline` |     `Terraform-CiCd-Ldo-Prd-Pipeline`     |  
+|   `YAML Pipeline Name (File)`    |   `.yaml`    |            `suffix`             |           `none`           |         `3-63`         |                   `${pipeline_use_case}.yaml`                   |           `terraform-cicd.yaml`           |     
+|  `YAML Pipeline Name (Portal)`   |   `-Yaml`    |            `suffix`             |        `numbering`         |         `1-50`         |        `apim-${infix}-${outfix}-${suffix}-${numbering}`         |  `Terraform-CiCd-Ldo-Prd-Pipeline-Yaml`   |
+| `Classic Pipeline Name (Portal)` |  `-Classic`  |            `suffix`             |        `numbering`         |         `1-50`         |        `apim-${infix}-${outfix}-${suffix}-${numbering}`         | `Terraform-CiCd-Ldo-Prd-Pipeline-Classic` |
