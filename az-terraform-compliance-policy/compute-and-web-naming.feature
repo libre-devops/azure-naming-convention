@@ -44,7 +44,6 @@ Feature: Naming Convention For Compute and Web Items
       | resource_name               | name_key |
       | azurerm_disk_encryption_set | name     |
 
-
   @case_sensitive
   Scenario Outline: Naming Standard For Function App
     Given I have <resource_name> defined
@@ -72,7 +71,7 @@ Feature: Naming Convention For Compute and Web Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "disk-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
+    Then its value must match the "(disk|osdisk|datadisk)(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)-.*" regex
 
     Examples:
       | resource_name        | name_key |
@@ -127,7 +126,7 @@ Feature: Naming Convention For Compute and Web Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "(win|vm).*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
+    Then its value must match the "(win|vm|dbs|web|app|jmp).*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                   | name_key |
@@ -138,7 +137,7 @@ Feature: Naming Convention For Compute and Web Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "(lnx|vm).*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
+    Then its value must match the "(lnx|vm|dbs|web|app|jmp|rh|ubu|deb|sus).*(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                 | name_key |
@@ -149,7 +148,7 @@ Feature: Naming Convention For Compute and Web Items
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
-    Then its value must match the "vmss-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
+    Then its value must match the "vmss.*(uks|ukw|euw|eun|use|use2)(poc|mvp|dev|tst|stg|uat|ppd|prd)(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
 
     Examples:
       | resource_name                             | name_key |
