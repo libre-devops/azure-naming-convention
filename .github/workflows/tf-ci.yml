@@ -45,7 +45,7 @@ jobs:
           -backend-config="storage_account_name=${TF_VAR_AZURE_BACKEND_SA_NAME}" \
           -backend-config="access_key=${TF_VAR_AZURE_BACKEND_SA_KEY}" \
           -backend-config="container_name=${TF_VAR_AZURE_BACKEND_SA_CONTAINER_NAME}" \
-          -backend-config="key=${TF_VAR_short}-${TF_VAR_env}-${TERRAFORM_STATE_NAME}.terraform.tfstate"" && \
+          -backend-config="key=${TF_VAR_short}-${TF_VAR_env}-${TERRAFORM_STATE_NAME}.terraform.tfstate" && \
 
           printf '%s' "${TF_VAR_env}" > .terraform/environment && \
 
