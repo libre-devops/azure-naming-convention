@@ -23,7 +23,7 @@ Feature: Naming Convention For Compute and Web Items
       | azurerm_app_service_plan | name     |
 
   @case_sensitive
-  Scenario Outline: Naming Standard For App Service plan
+  Scenario Outline: Naming Standard For Service Plan
     Given I have <resource_name> defined
     When it has <name_key>
     Then it must have name
