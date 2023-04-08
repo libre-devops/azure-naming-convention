@@ -419,26 +419,4 @@ Below is a list of resources with a naming convention set when not covered by th
 |   `YAML Pipeline Name (File)`    |   `.yaml`    |            `suffix`             |           `none`           |         `3-63`         |                   `${pipeline_use_case}.yaml`                   |           `terraform-cicd.yaml`           |     
 |  `YAML Pipeline Name (Portal)`   |   `-Yaml`    |            `suffix`             |           `none`           |         `1-50`         |        `apim-${infix}-${outfix}-${suffix}-${numbering}`         |  `Terraform-CiCd-Ldo-Prd-Pipeline-Yaml`   |
 | `Classic Pipeline Name (Portal)` |  `-Classic`  |            `suffix`             |           `none`           |         `1-50`         |        `apim-${infix}-${outfix}-${suffix}-${numbering}`         | `Terraform-CiCd-Ldo-Prd-Pipeline-Classic` |
-## Requirements
 
-No requirements.
-
-## Providers
-
-No providers.
-
-## Modules
-
-No modules.
-
-## Resources
-
-No resources.
-
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
