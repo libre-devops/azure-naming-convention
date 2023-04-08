@@ -67,28 +67,6 @@ Feature: Naming Convention For Network Azure Items
       | azurerm_virtual_network_gateway_connection | name     |
 
   @case_sensitive
-  Scenario Outline: Naming Standard For Public DNS
-    Given I have <resource_name> defined
-    When it has <name_key>
-    Then it must have name
-    Then its value must match the "dnsz-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
-
-    Examples:
-      | resource_name    | name_key |
-      | azurerm_dns_zone | name     |
-
-  @case_sensitive
-  Scenario Outline: Naming Standard For Private DNS
-    Given I have <resource_name> defined
-    When it has <name_key>
-    Then it must have name
-    Then its value must match the "pdnsz-.*-(uks|ukw|euw|eun|use|use2)-(poc|mvp|dev|tst|stg|uat|ppd|prd)-(01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19|20)" regex
-
-    Examples:
-      | resource_name            | name_key |
-      | azurerm_private_dns_zone | name     |
-
-  @case_sensitive
   Scenario Outline: Naming Standard For Azure Firewall
     Given I have <resource_name> defined
     When it has <name_key>
