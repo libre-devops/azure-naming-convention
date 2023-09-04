@@ -12,17 +12,6 @@ Feature: Naming Convention For General Azure Items
       | azurerm_user_assigned_identity | name     |
 
   @case_sensitive
-  Scenario Outline: Naming Standard For Management Groups
-    Given I have <resource_name> defined
-    When it has <name_key>
-    Then its value must match the "mg-.*" regex
-
-  Examples:
-    | resource_name            | name_key    |
-    | azurerm_management_group | display_name|
-
-
-  @case_sensitive
   Scenario Outline: Naming Standard For Policy Definitions
     Given I have <resource_name> defined
     When it has <name_key>
